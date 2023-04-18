@@ -1,0 +1,25 @@
+[
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~MuxCase_ex|MuxCase_ex>io_out",
+    "sources":[
+      "~MuxCase_ex|MuxCase_ex>io_in0",
+      "~MuxCase_ex|MuxCase_ex>io_sel",
+      "~MuxCase_ex|MuxCase_ex>io_in1",
+      "~MuxCase_ex|MuxCase_ex>io_in2",
+      "~MuxCase_ex|MuxCase_ex>io_in3",
+      "~MuxCase_ex|MuxCase_ex>io_in4",
+      "~MuxCase_ex|MuxCase_ex>io_in5",
+      "~MuxCase_ex|MuxCase_ex>io_in6",
+      "~MuxCase_ex|MuxCase_ex>io_in7"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"."
+  }
+]
