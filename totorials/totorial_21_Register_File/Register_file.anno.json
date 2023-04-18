@@ -1,0 +1,24 @@
+[
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~Register_file|Register_file>io_rdata2",
+    "sources":[
+      "~Register_file|Register_file>io_raddr2"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~Register_file|Register_file>io_rdata1",
+    "sources":[
+      "~Register_file|Register_file>io_raddr1"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"."
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~clock|clock>io_clr_sec",
+    "sources":[
+      "~clock|clock>io_en",
+      "~clock|clock>io_count_max"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"."
+  }
+]

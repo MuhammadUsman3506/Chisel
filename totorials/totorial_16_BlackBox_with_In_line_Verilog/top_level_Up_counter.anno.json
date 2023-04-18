@@ -1,0 +1,16 @@
+[
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxInlineAnno",
+    "target":"top_level_Up_counter.up_counter",
+    "name":"up_counter.v",
+    "text":"\r\nmodule up_counter(\r\n  input         clock,\r\n  input         reset,\r\n  input         io_en,\r\n  input  [31:0] io_count_max,\r\n  output        io_clr,\r\n  output [31:0] io_count\r\n);\r\n  reg [31:0] _RAND_0;\r\n  reg [31:0] countReg; // @[up_counter.scala 16:25]\r\n  wire [31:0] _T_1 = countReg + 32'h1; // @[up_counter.scala 25:26]\r\n  assign io_clr = io_en & io_count == io_count_max; // @[up_counter.scala 29:20]\r\n  assign io_count = countReg; // @[up_counter.scala 28:12]\r\n  always @(posedge clock) begin\r\n    if (reset) begin // @[up_counter.scala 16:25]\r\n      countReg <= 32'h0; // @[up_counter.scala 16:25]\r\n    end else if (io_clr) begin // @[up_counter.scala 22:16]\r\n      countReg <= 32'h0; // @[up_counter.scala 23:14]\r\n    end else if (io_en) begin // @[up_counter.scala 24:21]\r\n      countReg <= _T_1; // @[up_counter.scala 25:14]\r\n    end\r\n  end\r\nendmodule\r\n"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"."
+  }
+]

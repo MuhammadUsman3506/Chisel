@@ -1,0 +1,143 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\alpha\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\alpha\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.2 (Oracle Corporation Java 1.8.0_202)
+[debug]       Load.loadUnit: plugins took 331.4251ms
+[debug]       Load.loadUnit: defsScala took 0.7271ms
+[debug] [Loading] Scanning directory C:\Users\alpha\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\alpha\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 45.9302 ms
+[debug]           Load.resolveProject(global-plugins) took 87.2906ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\alpha\.sbt\1.0\plugins, plugins: List(<none>))) took 193.1474ms
+[debug] [Loading] Done in C:\Users\alpha\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 481.6137ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.6396ms
+[debug]     Load.loadUnit(file:/C:/Users/alpha/.sbt/1.0/plugins/, ...) took 831.8628ms
+[debug]   Load.apply: load took 1201.5647ms
+[debug]   Load.apply: resolveProjects took 19.1095ms
+[debug]   Load.apply: finalTransforms took 159.165ms
+[debug]   Load.apply: config.delegates took 22.2165ms
+[debug]   Load.apply: Def.make(settings)... took 1106.0344ms
+[debug]   Load.apply: structureIndex took 291.8716ms
+[debug]   Load.apply: mkStreams took 3.3358ms
+[info] loading global plugins from C:\Users\alpha\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 5924.0657ms
+[debug]           Load.loadUnit: plugins took 58.5507ms
+[debug]           Load.loadUnit: defsScala took 0.011ms
+[debug] [Loading] Scanning directory F:\chisel\toturials\totorial_16_BlackBox_with_In_line_Verilog\project
+[debug]             Load.loadUnit: mkEval took 16.0585ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in F:\chisel\toturials\totorial_16_BlackBox_with_In_line_Verilog\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 6.2548 ms
+[info] loading settings for project totorial_16_blackbox_with_in_line_verilog-build from idea.sbt ...
+[debug]               Load.resolveProject(totorial_16_blackbox_with_in_line_verilog-build) took 10.7594ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id totorial_16_blackbox_with_in_line_verilog-build, base: F:\chisel\toturials\totorial_16_BlackBox_with_In_line_Verilog\project, plugins: List(<none>))) took 18.1537ms
+[debug] [Loading] Done in F:\chisel\toturials\totorial_16_BlackBox_with_In_line_Verilog\project, returning: (totorial_16_blackbox_with_in_line_verilog-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 5859.3646ms
+[debug]           Load.loadUnit: cleanEvalClasses took 9.2705ms
+[debug]         Load.loadUnit(file:/F:/chisel/toturials/totorial_16_BlackBox_with_In_line_Verilog/project/, ...) took 5931.6159ms
+[debug]       Load.apply: load took 5933.9646ms
+[debug]       Load.apply: resolveProjects took 0.1629ms
+[debug]       Load.apply: finalTransforms took 17.1666ms
+[debug]       Load.apply: config.delegates took 0.9546ms
+[debug]       Load.apply: Def.make(settings)... took 238.7781ms
+[debug]       Load.apply: structureIndex took 74.5234ms
+[debug]       Load.apply: mkStreams took 0.0038ms
+[info] loading project definition from F:\chisel\toturials\totorial_16_BlackBox_with_In_line_Verilog\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[debug]     Load.loadUnit: plugins took 9718.1369ms
+[debug]     Load.loadUnit: defsScala took 0.0038ms
+[debug] [Loading] Scanning directory F:\chisel\toturials\totorial_16_BlackBox_with_In_line_Verilog
+[debug]       Load.loadUnit: mkEval took 0.2986ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 5.7301 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 43.9461ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: F:\chisel\toturials\totorial_16_BlackBox_with_In_line_Verilog, plugins: List(<none>))) took 54.7435ms
+[debug] [Loading] Done in F:\chisel\toturials\totorial_16_BlackBox_with_In_line_Verilog, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 5430.4996ms
+[debug]     Load.loadUnit: cleanEvalClasses took 22.2316ms
+[debug]   Load.loadUnit(file:/F:/chisel/toturials/totorial_16_BlackBox_with_In_line_Verilog/, ...) took 15171.8536ms
+[debug] Load.apply: load took 15174.8335ms
+[debug] Load.apply: resolveProjects took 0.2183ms
+[debug] Load.apply: finalTransforms took 47.0602ms
+[debug] Load.apply: config.delegates took 0.7649ms
+[debug] Load.apply: Def.make(settings)... took 193.4838ms
+[debug] Load.apply: structureIndex took 55.0037ms
+[debug] Load.apply: mkStreams took 0.0044ms
+[info] set current project to totorial_16_BlackBox (in build file:/F:/chisel/toturials/totorial_16_BlackBox_with_In_line_Verilog/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 58743 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 58743, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to totorial_16_BlackBox (in build file:/F:/chisel/toturials/totorial_16_BlackBox_with_In_line_Verilog/)
+[debug] > Exec(idea-shell, None, None)

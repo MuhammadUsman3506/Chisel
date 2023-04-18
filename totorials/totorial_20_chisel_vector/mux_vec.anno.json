@@ -1,0 +1,21 @@
+[
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~mux_vec|mux_vec>io_out",
+    "sources":[
+      "~mux_vec|mux_vec>io_in_3",
+      "~mux_vec|mux_vec>io_sel",
+      "~mux_vec|mux_vec>io_in_2",
+      "~mux_vec|mux_vec>io_in_1",
+      "~mux_vec|mux_vec>io_in_0"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"."
+  }
+]
